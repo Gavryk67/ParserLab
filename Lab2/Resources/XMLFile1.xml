@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+	<book id="1" genre="fantasy" author="J.K. Rowling">
+		<title>Harry Potter and the Philosopher's Stone</title>
+		<price>19.99</price>
+		<description>A young boy discovers he's a wizard on his 11th birthday.</description>
+	</book>
+	<book id="2" genre="science fiction" author="Isaac Asimov" publisher="Bantam Books">
+		<title>Foundation</title>
+		<price>15.50</price>
+		<description>The story of the decline and fall of a Galactic Empire.</description>
+	</book>
+	<book id="3" genre="horror" author="Stephen King" publisher="Viking Press">
+		<title>It</title>
+		<price>18.99</price>
+		<description>A small town is terrorized by a supernatural being.</description>
+	</book>
+	<book id="4" genre="fantasy" author="Sir Richard Francis Burton, Joseph-Charles Mardus and Edward Lane" publisher="Simon and Schuster">
+		<title>The arabian night</title>
+		<price>21.99</price>
+		<description>The Arabian Nights is a collection of stories set within a framing device, the main story in which the various other tales are enfolded</description>
+	</book>
+	<book id="5" genre="mystery" author="Agatha Christie" publisher="HarperCollins">
+		<title>Murder on the Orient Express</title>
+		<price>12.99</price>
+		<description>A famous detective solves a murder case aboard a train.</description>
+	</book>
+</catalog>

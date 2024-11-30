@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041A\u041D\u0423\\\u041A\u0443\u0440\u04412\\\u041E\u041E\u041F\\ParserLab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{107278ED-1981-4FAA-9625-ACB8A0C1967D}|Lab2\\Lab2.csproj|d:\\\u043A\u043D\u0443\\\u043A\u0443\u0440\u04412\\\u043E\u043E\u043F\\parserlab\\lab2\\xmlprocessing\\linq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107278ED-1981-4FAA-9625-ACB8A0C1967D}|Lab2\\Lab2.csproj|solutionrelative:lab2\\xmlprocessing\\linq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107278ED-1981-4FAA-9625-ACB8A0C1967D}|Lab2\\Lab2.csproj|d:\\\u043A\u043D\u0443\\\u043A\u0443\u0440\u04412\\\u043E\u043E\u043F\\parserlab\\lab2\\xmlprocessing\\sax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107278ED-1981-4FAA-9625-ACB8A0C1967D}|Lab2\\Lab2.csproj|solutionrelative:lab2\\xmlprocessing\\sax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107278ED-1981-4FAA-9625-ACB8A0C1967D}|Lab2\\Lab2.csproj|d:\\\u043A\u043D\u0443\\\u043A\u0443\u0440\u04412\\\u043E\u043E\u043F\\parserlab\\lab2\\xmlprocessing\\dom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107278ED-1981-4FAA-9625-ACB8A0C1967D}|Lab2\\Lab2.csproj|solutionrelative:lab2\\xmlprocessing\\dom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107278ED-1981-4FAA-9625-ACB8A0C1967D}|Lab2\\Lab2.csproj|d:\\\u043A\u043D\u0443\\\u043A\u0443\u0440\u04412\\\u043E\u043E\u043F\\parserlab\\lab2\\viewmodels\\transformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107278ED-1981-4FAA-9625-ACB8A0C1967D}|Lab2\\Lab2.csproj|solutionrelative:lab2\\viewmodels\\transformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107278ED-1981-4FAA-9625-ACB8A0C1967D}|Lab2\\Lab2.csproj|d:\\\u043A\u043D\u0443\\\u043A\u0443\u0440\u04412\\\u043E\u043E\u043F\\parserlab\\lab2\\xmlprocessing\\xmltransformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107278ED-1981-4FAA-9625-ACB8A0C1967D}|Lab2\\Lab2.csproj|solutionrelative:lab2\\xmlprocessing\\xmltransformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107278ED-1981-4FAA-9625-ACB8A0C1967D}|Lab2\\Lab2.csproj|d:\\\u043A\u043D\u0443\\\u043A\u0443\u0440\u04412\\\u043E\u043E\u043F\\parserlab\\lab2\\xmlprocessing\\ixmlprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107278ED-1981-4FAA-9625-ACB8A0C1967D}|Lab2\\Lab2.csproj|solutionrelative:lab2\\xmlprocessing\\ixmlprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 249,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Linq.cs",
+              "DocumentMoniker": "D:\\\u041A\u041D\u0423\\\u041A\u0443\u0440\u04412\\\u041E\u041E\u041F\\ParserLab\\Lab2\\XmlProcessing\\Linq.cs",
+              "RelativeDocumentMoniker": "Lab2\\XmlProcessing\\Linq.cs",
+              "ToolTip": "D:\\\u041A\u041D\u0423\\\u041A\u0443\u0440\u04412\\\u041E\u041E\u041F\\ParserLab\\Lab2\\XmlProcessing\\Linq.cs",
+              "RelativeToolTip": "Lab2\\XmlProcessing\\Linq.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T11:21:09.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sax.cs",
+              "DocumentMoniker": "D:\\\u041A\u041D\u0423\\\u041A\u0443\u0440\u04412\\\u041E\u041E\u041F\\ParserLab\\Lab2\\XmlProcessing\\Sax.cs",
+              "RelativeDocumentMoniker": "Lab2\\XmlProcessing\\Sax.cs",
+              "ToolTip": "D:\\\u041A\u041D\u0423\\\u041A\u0443\u0440\u04412\\\u041E\u041E\u041F\\ParserLab\\Lab2\\XmlProcessing\\Sax.cs",
+              "RelativeToolTip": "Lab2\\XmlProcessing\\Sax.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T11:20:07.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransformViewModel.cs",
+              "DocumentMoniker": "D:\\\u041A\u041D\u0423\\\u041A\u0443\u0440\u04412\\\u041E\u041E\u041F\\ParserLab\\Lab2\\ViewModels\\TransformViewModel.cs",
+              "RelativeDocumentMoniker": "Lab2\\ViewModels\\TransformViewModel.cs",
+              "ToolTip": "D:\\\u041A\u041D\u0423\\\u041A\u0443\u0440\u04412\\\u041E\u041E\u041F\\ParserLab\\Lab2\\ViewModels\\TransformViewModel.cs",
+              "RelativeToolTip": "Lab2\\ViewModels\\TransformViewModel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T11:16:55.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IXmlProcessing.cs",
+              "DocumentMoniker": "D:\\\u041A\u041D\u0423\\\u041A\u0443\u0440\u04412\\\u041E\u041E\u041F\\ParserLab\\Lab2\\XmlProcessing\\IXmlProcessing.cs",
+              "RelativeDocumentMoniker": "Lab2\\XmlProcessing\\IXmlProcessing.cs",
+              "ToolTip": "D:\\\u041A\u041D\u0423\\\u041A\u0443\u0440\u04412\\\u041E\u041E\u041F\\ParserLab\\Lab2\\XmlProcessing\\IXmlProcessing.cs",
+              "RelativeToolTip": "Lab2\\XmlProcessing\\IXmlProcessing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T11:16:23.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "XmlTransformer.cs",
+              "DocumentMoniker": "D:\\\u041A\u041D\u0423\\\u041A\u0443\u0440\u04412\\\u041E\u041E\u041F\\ParserLab\\Lab2\\XmlProcessing\\XmlTransformer.cs",
+              "RelativeDocumentMoniker": "Lab2\\XmlProcessing\\XmlTransformer.cs",
+              "ToolTip": "D:\\\u041A\u041D\u0423\\\u041A\u0443\u0440\u04412\\\u041E\u041E\u041F\\ParserLab\\Lab2\\XmlProcessing\\XmlTransformer.cs",
+              "RelativeToolTip": "Lab2\\XmlProcessing\\XmlTransformer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T11:16:18.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dom.cs",
+              "DocumentMoniker": "D:\\\u041A\u041D\u0423\\\u041A\u0443\u0440\u04412\\\u041E\u041E\u041F\\ParserLab\\Lab2\\XmlProcessing\\Dom.cs",
+              "RelativeDocumentMoniker": "Lab2\\XmlProcessing\\Dom.cs",
+              "ToolTip": "D:\\\u041A\u041D\u0423\\\u041A\u0443\u0440\u04412\\\u041E\u041E\u041F\\ParserLab\\Lab2\\XmlProcessing\\Dom.cs*",
+              "RelativeToolTip": "Lab2\\XmlProcessing\\Dom.cs*",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T11:13:50.02Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 147,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab2.MainPage"
+             Title="Обробка xml файлу">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <VerticalStackLayout Padding="20" Spacing="15">
+                <Button Text="Завантажити XML" Command="{Binding FileLoader.LoadFileCommand}" WidthRequest="200" />
+
+                <!-- Список доступних атрибутів -->
+                <Label Text="Виберіть атрибут для пошуку:" FontSize="Medium" />
+                <Picker x:Name="AttributePicker"
+                    Title="Список всіх атрибутів"
+                    ItemsSource="{Binding Attributes.Items}"
+                    SelectedItem="{Binding Attributes.SelectedItem}"
+                    WidthRequest="300" />
+
+                <!-- Поле для введення значення атрибуту -->
+                <Label Text="Виберіть значення для вибраного атрибута:" FontSize="Medium" />
+                <Picker Title="Список всіх значень"
+                ItemsSource="{Binding Values.Items}"
+                SelectedItem="{Binding Values.SelectedItem}"
+                WidthRequest="300" />
+
+                <!-- Кнопки збереження та очищення -->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+                    <Button Text="Зберегти"
+                        Command="{Binding SaveParameter.SaveSearchParameterCommand}"
+                        WidthRequest="100" />
+                    <Button Text="Clear"
+                        Command="{Binding ClearParameters.ClearParametersCommand}"
+                        WidthRequest="100" />
+                </StackLayout>
+
+                <!-- Список заданих параметрів-->
+                <Label Text="Задані параметри:" FontSize="Medium"/>
+                <ListView ItemsSource="{Binding SearchParameters}" 
+                WidthRequest="300" 
+                HeightRequest="150" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"
+                BackgroundColor="#221B5C"/>
+
+                <!-- Кнопка пошуку -->
+                <Button Text="Пошук"
+                Command="{Binding SearchCommand}"
+                WidthRequest="150"  
+                HorizontalOptions="Center" />
+
+                <!-- Методи обробки -->
+                <Label Text="Виберіть метод обробки:" FontSize="Medium" />
+                <StackLayout RadioButtonGroup.GroupName="ProcessingMethod" >
+                    <RadioButton Content="SAX" 
+                                 CheckedChanged="RadioButton_CheckedChanged" />
+                    <RadioButton Content="DOM" 
+                                 CheckedChanged="RadioButton_CheckedChanged" />
+                    <RadioButton Content="LINQ" 
+                                 CheckedChanged="RadioButton_CheckedChanged" />
+
+                    <!-- Кнопка трансформації -->
+                    <Button Text="Transform" Command="{Binding Transform.TransformCommand}" 
+            WidthRequest="150" HorizontalOptions="Center" />
+                </StackLayout>
+
+
+
+                <Label Text="Результати пошуку:" FontSize="Medium" />
+                <CollectionView ItemsSource="{Binding SearchResults}" x:Name="ResultsTable"
+                HorizontalOptions="Center" WidthRequest="800" Margin="0,20,0,20">
+                    <CollectionView.Header>
+                        <Frame BorderColor="White" Padding="5" HasShadow="False" BackgroundColor="#221B5C" CornerRadius="0">
+                            <Grid Padding="5" ColumnSpacing="10" ColumnDefinitions="0.5*,*,1.5*,1.5*,*,2.5*">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                
+                                <!-- Назви колонок -->
+                                <Label Text="ID" TextColor="White" FontAttributes="Bold" Grid.Column="0" Grid.Row="0"
+                                    HorizontalOptions="Center" VerticalOptions="Center" />
+                                <Label Text="Genre" TextColor="White" Grid.Column="1" Grid.Row="0" FontAttributes="Bold" 
+                                    HorizontalOptions="Center" VerticalOptions="Center" />
+                                <Label Text="Author" TextColor="White" Grid.Column="2" Grid.Row="0" FontAttributes="Bold" 
+                                    HorizontalOptions="Center" VerticalOptions="Center" />
+                                <Label Text="Title" TextColor="White" Grid.Column="3" Grid.Row="0" FontAttributes="Bold" 
+                                    HorizontalOptions="Center" VerticalOptions="Center" />
+                                <Label Text="Price" TextColor="White" Grid.Column="4" Grid.Row="0" FontAttributes="Bold" 
+                                    HorizontalOptions="Center" VerticalOptions="Center" />
+                                <Label Text="Description" TextColor="White" Grid.Column="5" Grid.Row="0" FontAttributes="Bold" 
+                                    HorizontalOptions="Center" VerticalOptions="Center" />
+                            </Grid>
+                        </Frame>
+                    </CollectionView.Header>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame BorderColor="White" Padding="5" HasShadow="False" BackgroundColor="#221B5C" CornerRadius="0">
+                                <Grid Padding="5" ColumnSpacing="10" WidthRequest="800" ColumnDefinitions="0.5*,*,1.5*,1.5*,*,2.5*">
+                                    <!-- Дані елементів -->
+                                    <Label Text="{Binding Attributes[id]}" TextColor="White" Grid.Column="0" 
+                                           HorizontalOptions="Center" VerticalOptions="Center"/>
+                                    <Label Text="{Binding Attributes[genre]}" TextColor="White" Grid.Column="1" 
+                                           HorizontalOptions="Center" VerticalOptions="Center"/>
+                                    <Label Text="{Binding Attributes[author]}" TextColor="White" Grid.Column="2" 
+                                           HorizontalOptions="Center" VerticalOptions="Center"/>
+                                    <Label Text="{Binding Children[title]}" TextColor="White" Grid.Column="3" 
+                                           HorizontalOptions="Center" VerticalOptions="Center"/>
+                                    <Label Text="{Binding Children[price]}" TextColor="White" Grid.Column="4" 
+                                           HorizontalOptions="Center" VerticalOptions="Center"/>
+                                    <Label Text="{Binding Children[description]}" TextColor="White" Grid.Column="5" 
+                                           HorizontalOptions="Center" VerticalOptions="Center"/>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
